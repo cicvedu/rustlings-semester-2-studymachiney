@@ -10,7 +10,6 @@ fn main() {
     let my_option: Option<()> = None;
     if my_option.is_none() {
         // my_option.unwrap();
-        panic!("my_option is None");
     }
 
     let my_arr = &[
